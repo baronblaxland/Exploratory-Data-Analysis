@@ -11,7 +11,7 @@ SCC <- readRDS("Source_Classification_Code.rds")
 
 # Clean and Sort the data
 
-
+baltimore<- (NEI$fips=="23510")
 
 
 #Have total emissions from PM2.5 decreased in the Baltimore City,
@@ -19,3 +19,4 @@ SCC <- readRDS("Source_Classification_Code.rds")
 #system to make a plot answering this question.
 
 
+plot(baltimore)
